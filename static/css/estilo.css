@@ -1,0 +1,96 @@
+body{
+    background:gray;
+    text-align: center;
+    margin-top: 50x;
+    margin-left: 100px;
+}
+
+.special{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+h1{
+    padding: 0;
+    background:gold;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color:seagreen;
+}
+
+footer {
+    max-width: 1000px;
+    background:goldenrod;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color:black;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+.header{
+    background-color: gold;
+    height: 80px;
+    position:static;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;    
+    justify-content:space-between;
+}
+.nav-link{
+    color: chocolate;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-family: Arial;
+   
+}
+.nav-menu-link:hover{
+background-color: #034574;
+transition: 0.5s;
+}
+
+table, th, td {
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 50x;
+    margin-left: 380px;
+  }

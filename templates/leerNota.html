@@ -1,0 +1,22 @@
+{% extends "layout.html"%}
+
+{% block titulo %} Pagina principal {% endblock %}
+
+
+{% block contenido %}
+
+  <table>
+    {% for nota in consulta %}
+    <tr>
+      <td>{{nota.tituloNota}}</td>
+      <td>{{nota.cuerpoNota}}</td>
+      <td><a href="/eliminarnota/{{nota.idNota}}">Eliminar</a></td>
+      <td><a href="/editarnota/{{nota.idNota}}">Editar</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  <p>
+    {{titulo}}
+    {{cuerpo}}
+  </p>
+{% endblock %}

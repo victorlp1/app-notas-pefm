@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+{% block head %}
+<head>
+  <meta charset="utf-8">
+  <title>{% block titulo %} {% endblock %}</title>
+  <link rel="stylesheet" href="/static/css/estilo.css"/>
+</head>
+{% endblock %}
+
+{% block body %}
+<body>
+
+{% block encabezado %}
+<header class="header">
+  <nav class="nav">
+    <a href="/" class="logo nav-link"><img src="/static/images/logotec.png" height="70"> Aplicacion de notas</a>
+    <ul class="nav-menu">
+      <li class="nav-menu-item"><a href="/leernotas" class="nav-menu-link nav-link">Leer Nota</a></li>
+      
+
+    </ul>
+  </nav>
+
+</header>
+
+{% endblock %}
+  <div class="container"></div>
+      {% block contenido %}
+      {% endblock %}
+  </div>
+{% block pie %}
+
+<footer>
+  Instituto tecnologico de colima<br>
+  Servicios en la nube<br>
+  Victor Miguel Luna Perez<br>
+</footer>
+{% endblock %}
+</body>
+
+{% endblock %}
+</html>
